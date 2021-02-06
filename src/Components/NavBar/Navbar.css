@@ -25,6 +25,10 @@ a {
   text-decoration: none !important;
 }
 
+.navbar {
+  background: #fff url('../../assets/grass.png') no-repeat 100% 100% !important;
+}
+
 .ml-auto a {
   color: rgb(106, 190, 113);
   align-items: center;
