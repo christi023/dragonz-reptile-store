@@ -1,0 +1,47 @@
+/************************ WELCOME ********************/
+
+.box-content {
+  padding: 100px 0 !important;
+}
+
+.box-content .heading {
+  margin-bottom: 50px !important;
+  text-align: center !important;
+}
+
+.box-content .heading h2 {
+  letter-spacing: 7px !important;
+  font-family: 'Dancing Script', cursive !important;
+}
+
+.box-content .heading .intro {
+  font-size: 22px !important;
+  font-family: 'Shadows Into Light', cursive;
+  font-style: italic;
+}
+
+.line-1 {
+  margin: 15px auto;
+  padding: 0;
+  max-width: 100px;
+  border: 0;
+  border-top: solid 5px #333;
+  text-align: center;
+}
+
+.box-content.box-1 {
+  text-align: center;
+}
+
+.box-content.box-1 img {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.box-content.box-1 .white-table {
+  margin-top: -150px;
+  background: #fefefe;
+  border-top: 7px solid #1b5b2e;
+  padding: 50px 20px;
+  border-radius: 6px;
+}
