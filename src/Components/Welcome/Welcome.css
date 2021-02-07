@@ -48,3 +48,46 @@
   padding: 50px 20px;
   border-radius: 6px;
 }
+
+/********************** WELCOME 2ND SECTION ****************/
+
+.box-content.box-style {
+  color: #fff;
+  background: url('../../assets/snake1.jpeg') #222 no-repeat fixed;
+}
+
+/****************** MEDIA QUERIES ******************/
+@media only screen and (max-width: 1100px) {
+  .box-content.box-2 i {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .box-content.box-2 i {
+    padding: 30px 60px;
+    font-size: 24px;
+  }
+  .box-content.box-2 i:before,
+  .box-content.box-2 i:after {
+    width: 30px;
+    height: 30px;
+    font-size: 66px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .box-content .heading h2 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .box-content.box-2 i {
+    padding: 10px 30px;
+    font-size: 21px;
+  }
+  .box-content.box-2 i:before,
+  .box-content.box-2 i:after {
+    font-size: 36px;
+  }
+}
