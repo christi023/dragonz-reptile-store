@@ -1,0 +1,43 @@
+/********************* ABOUT *******************************/
+
+.box-content.box-style-3 {
+  background: #f4f4f4 url(../../assets/pattern3.png) no-repeat center center;
+}
+
+.box-content {
+  padding: 50px 0 90px;
+}
+.box-icon {
+  margin-bottom: 10px;
+}
+.box-icon-image {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: #0ba12c;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 20px;
+}
+.box-icon-aside {
+  overflow: hidden;
+  margin-left: 50px;
+  max-width: 400px;
+}
+.box-icon-aside h3 {
+  margin-top: 0;
+}
+.box-content.box-5 {
+  padding: 50px 0 30px;
+}
+
+.why-choose-us- {
+  margin-top: 100px;
+}
+.box-content.box-5 .pet img {
+  max-width: 330px;
+  margin: 40px auto 0;
+  text-align: center;
+}
