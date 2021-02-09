@@ -1,8 +1,8 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import video1 from '../../assets/turtle.mp4';
-import video2 from '../../assets/snake.mp4';
-import video3 from '../../assets/lizard.mp4';
+import { objOne, objTwo, objThree } from '../../data/WelcomeData';
+import WelcomeCard from './WelcomeCard';
+
 // style
 import './Welcome.css';
 
@@ -29,34 +29,13 @@ const Welcome = () => {
               </Row>
               <Row>
                 <Col md={4}>
-                  <video
-                    className="img-responsive w-100"
-                    src={video1}
-                    autoPlay
-                    loop
-                    muted
-                    alt="First slide"
-                  />
+                  <WelcomeCard {...objOne} />
                 </Col>
                 <Col md={4}>
-                  <video
-                    className="img-responsive w-100"
-                    src={video2}
-                    autoPlay
-                    loop
-                    muted
-                    alt="First slide"
-                  />
+                  <WelcomeCard {...objTwo} />
                 </Col>
                 <Col md={4}>
-                  <video
-                    className="img-responsive w-100"
-                    src={video3}
-                    autoPlay
-                    loop
-                    muted
-                    alt="First slide"
-                  />
+                  <WelcomeCard {...objThree} />
                 </Col>
               </Row>
             </div>
@@ -64,7 +43,7 @@ const Welcome = () => {
         </section>
 
         <section id="nav-news" className="box-content box-2 box-style">
-          <div class="container">
+          <div className="container">
             <Row>
               <Col lg={12}>
                 <i className="fas fa-quote-left"></i>
