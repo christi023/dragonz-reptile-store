@@ -1,0 +1,218 @@
+/****************** PACKAGES *********************/
+/* --------------------------------Entry-box----------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.box-content.box-4 .item {
+  padding: 0 15px;
+}
+.box-entry {
+  color: #4d4d4d;
+  margin-bottom: 30px;
+  border-bottom: 4px solid #eee;
+  background: #fff;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+  position: relative;
+  max-width: 100%;
+  display: block;
+  clear: both;
+  z-index: 1;
+}
+.box-entry:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: -4px;
+  border-top: 1px solid #514c0c;
+  border-bottom: 4px solid #514c0c;
+  transform: scale(0, 1);
+  -moz-transform: scale(0, 1);
+  -webkit-transform: scale(0, 1);
+  -ms-transform: scale(0, 1);
+  transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  z-index: -1;
+}
+.box-entry:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-left: 1px solid #514c0c;
+  border-right: 1px solid #514c0c;
+  transform: scale(1, 0);
+  -moz-transform: scale(1, 0);
+  -webkit-transform: scale(1, 0);
+  transition: all 0.4s ease-in-out 0s;
+  -ms-transform: scale(0, 1);
+  -moz-transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  z-index: -1;
+}
+.box-entry .box-entry-inner {
+  position: relative;
+  z-index: 1;
+}
+.box-entry img {
+  border: none;
+  width: 100%;
+}
+
+.box-entry .entry-des {
+  padding: 0 20px 20px;
+}
+.box-entry .entry-des h3 {
+  margin: 20px 0 0;
+  font-size: 29px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box-entry .entry-des span {
+  margin-bottom: 20px;
+  display: block;
+  color: #aaa;
+}
+.box-entry .entry-des ul.fancy-list {
+  padding: 0;
+}
+.box-entry .entry-des ul.fancy-list li {
+  display: block;
+  line-height: 28px;
+  padding-left: 20px;
+  position: relative;
+  margin: 5px 0;
+}
+.box-entry .entry-des ul.fancy-list li::before {
+  color: #6a695e;
+  content: '';
+  font-family: FontAwesome;
+  font-size: 14px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.box-entry .entry-bottom {
+  padding: 15px 20px;
+  border-top: 1px solid #ccc;
+}
+.box-entry .entry-bottom a.btn {
+  float: right;
+  margin: 0;
+}
+.pro-price-content {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 7px;
+  line-height: 26px;
+}
+.pro-price-content sup,
+.pro-price-content span {
+  font-size: 14px;
+}
+.pro-price-content sup {
+  position: relative;
+  vertical-align: baseline;
+  top: -9px;
+  line-height: 0;
+}
+.pro-price-content span {
+  color: #b3b3b3;
+}
+
+.box-entry:hover .entry-bottom {
+  border-top: 1px solid #514c0c;
+}
+.box-entry:hover:before,
+.box-entry:hover:after {
+  transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+}
+/*
+.owl-carousel {
+  width: 100%;
+  position: relative;
+  opacity: 1;
+  display: block;
+}
+
+.owl-carousel .owl-wrapper-outer {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel .owl-item {
+  float: left;
+  width: 240px;
+} */
+/*
+.wrapper {
+  width: 1920px;
+  left: 0px;
+  display: block;
+  transform: translate3d(-240px, 0px, 0px);
+}
+/*
+.carrousel {
+  width: 35%;
+  left: 6%;
+  z-index: 9999;
+}
+.carrousel-inner img {
+  width: 100%;
+  max-height: 550px;
+}
+
+.carrousel-inner {
+  width: 1920px;
+  left: 0;
+  display: block;
+  transition: all ease 0s;
+}
+
+.carrousel-inner > .item {
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  width: 100%;
+  height: 650px;
+}
+.carrousel-inner > .item > img,
+.carrousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: 0;
+  padding-left: 0;
+}
+/* ------------------------------------Button---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.btn {
+  border-radius: 0;
+  outline: none;
+  color: #785843 !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+a.btn:focus {
+  outline: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .box-entry {
+    text-align: center;
+  }
+}
