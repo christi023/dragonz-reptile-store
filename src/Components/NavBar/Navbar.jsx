@@ -26,7 +26,7 @@ export default function NavBar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               {navData.map((item, i) => (
-                <Link to={item.links} key={i} className="nav-menu-links">
+                <Link to={item.link} key={i} className="nav-menu-links">
                   {item.title}
                 </Link>
               ))}
