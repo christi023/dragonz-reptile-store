@@ -4,8 +4,10 @@ import BackImg from '../../assets/bg.jpg';
 // Components
 import Carrousel from '../Carrousel/Carrousel';
 import Welcome from '../Welcome/Welcome';
-
 // Pages
+import About from '../../Pages/About/About';
+import Packages from '../../Pages/Packages/Packages';
+
 // style
 import './Home.css';
 
@@ -21,6 +23,8 @@ const Home = () => {
         <Carrousel />
       </div>
       <Welcome />
+      <About />
+      <Packages />
     </>
   );
 };
