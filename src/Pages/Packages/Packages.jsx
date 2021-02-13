@@ -1,9 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import Carousel from 'react-bootstrap/Carousel';
 import PackageCard from '../Packages/PackagesCard';
-//import PackageData from '../../data/PackageData';
-
 import { objOne, objTwo, objThree, objFour } from '../../data/PackageData';
 // styles
 import './Packages.css';
@@ -11,7 +8,7 @@ import './Packages.css';
 const Packages = () => {
   return (
     <>
-      <section className="box-content box-4" id="packages">
+      <section className="box-content box-4 section-bg" id="packages">
         <div className="container">
           <Row className="heading">
             <Col lg={12}>
@@ -23,23 +20,31 @@ const Packages = () => {
             </Col>
           </Row>
 
-          <Carousel className="carrousel">
-            <Carousel.Item style={{ width: '240px' }}>
+          <Row>
+            <Col md={4}>
               <PackageCard {...objOne} />
-            </Carousel.Item>
+            </Col>
 
-            <Carousel.Item style={{ width: '240px' }}>
+            <Col md={4}>
               <PackageCard {...objTwo} />
-            </Carousel.Item>
+            </Col>
 
-            <Carousel.Item style={{ width: '240px' }}>
+            <Col md={4}>
               <PackageCard {...objThree} />
-            </Carousel.Item>
+            </Col>
 
-            <Carousel.Item style={{ width: '240px' }}>
+            <Col md={4}>
               <PackageCard {...objFour} />
-            </Carousel.Item>
-          </Carousel>
+            </Col>
+
+            <Col md={4}>
+              <PackageCard {...objFour} />
+            </Col>
+
+            <Col md={4}>
+              <PackageCard {...objFour} />
+            </Col>
+          </Row>
         </div>
       </section>
     </>

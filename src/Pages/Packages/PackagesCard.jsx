@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-//import Card from 'react-bootstrap/Card';
-//import Col from 'react-bootstrap/Col';
-
 // style
 import './Packages.css';
 
@@ -21,7 +18,7 @@ const PackagesCard = (props) => {
             <div className="entry-bottom clearfix">
               <p className="card-price">
                 <span>$</span>
-                {props.price}/
+                {props.price}/Year
               </p>
               <Link to={props.link} className="btn btn-primary">
                 READ MORE
