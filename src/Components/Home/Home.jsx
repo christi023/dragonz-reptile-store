@@ -7,6 +7,7 @@ import Welcome from '../Welcome/Welcome';
 // Pages
 import About from '../../Pages/About/About';
 import Packages from '../../Pages/Packages/Packages';
+import Collection from '../../Pages/Collection/Collection';
 
 // style
 import './Home.css';
@@ -25,6 +26,7 @@ const Home = () => {
       <Welcome />
       <About />
       <Packages />
+      <Collection />
     </>
   );
 };
