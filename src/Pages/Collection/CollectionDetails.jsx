@@ -6,11 +6,14 @@ import './Collection.css';
 const CollectionDetails = (props) => {
   return (
     <div className="ch-grid">
-      <img src={props.imgSrc} className="ch-item" alt="" />
-      <div className="ch-info">
-        <h3 className="shake">{props.h3}</h3>
-        <p>{props.p}</p>
-        <Link to={props.link}>More Details</Link>
+      <div className="ch-item" style={{ backgroundImage: `url(${props.imgSrc})` }}>
+        <div className="ch-info">
+          <h3 className="">{props.h3}</h3>
+          <p>{props.p}</p>
+          <Link to={props.link} style={{ color: 'white' }}>
+            More Details
+          </Link>
+        </div>
       </div>
     </div>
   );
