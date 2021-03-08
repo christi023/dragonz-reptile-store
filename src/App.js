@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // Components
 import NavBar from './Components/NavBar/NavBar';
 import Home from './Components/Home/Home';
+import Login from './Components/Contact/Login';
+import Register from './Components/Contact/Register';
 // Pages
 import News from './Pages/News/News';
 import About from './Pages/About/About';
@@ -24,6 +26,8 @@ export default function App() {
         <Route exact path="/packages" component={Packages} />
         <Route exact path="/collection" component={Collection} />
         <Route exact path="/blog" component={Blog} />
+        <Route exact path="/login" component={Login} />
+        <Route exact path="/contact" component={Register} />
       </Switch>
     </Router>
   );
