@@ -1,0 +1,145 @@
+/* -------------------------------------Footer--------------------------------- */
+
+footer {
+  color: #fff !important;
+  position: relative !important;
+  background-color: #00892c !important;
+}
+footer p {
+  margin-bottom: 20px;
+  display: block;
+}
+footer a {
+  color: #1b5b2e;
+}
+footer a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+footer .grass {
+  position: absolute;
+  top: -192px;
+  left: 0;
+}
+footer .chameleon {
+  position: absolute;
+  top: -122px;
+  right: 0;
+}
+footer .chameleon img {
+  max-width: 230px;
+}
+
+footer .top-footer {
+  color: #333;
+  background: #fff !important;
+}
+footer .top-footer p {
+  margin: 0;
+  padding: 30px 0;
+}
+footer .top-footer div {
+  padding-top: 30px;
+  text-align: center;
+}
+footer .top-footer div .twitter {
+  padding: 0 20px;
+  border-right: 1px solid #aaa;
+  margin-bottom: 20px;
+}
+footer .top-footer div .facebook {
+  padding: 0 20px;
+  border-right: 1px solid #aaa;
+  margin-bottom: 20px;
+}
+footer .top-footer div .youtube {
+  padding: 0 20px;
+  border-right: 1px solid #aaa;
+  margin-bottom: 20px;
+}
+footer .top-footer div .instagram {
+  padding: 0 20px;
+  border-right: 1px solid #aaa;
+  margin-bottom: 20px;
+}
+footer .top-footer div .linkedin {
+  padding: 0 20px;
+  border-right: 1px solid #aaa;
+  margin-bottom: 20px;
+}
+
+footer .top-footer ul li:last-child {
+  border-right: none;
+}
+footer .top-footer div a {
+  font-size: 35px;
+}
+
+footer .wrap-footer-bg {
+  background: url(../../assets/bg-footer.png) no-repeat 0% 100%;
+  padding-top: 50px;
+  min-height: 400px;
+}
+
+footer .col-footer {
+  margin-bottom: 50px;
+}
+footer .col-footer:after,
+.col-footer:before {
+  clear: both;
+  content: '\0020';
+  display: block;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+footer .col-footer .heading {
+  text-align: center;
+}
+footer .col-footer .heading h4 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+footer .col-footer.footer-2 img {
+  margin: 10px 0;
+}
+
+footer .copyright {
+  padding: 25px 0;
+  background-color: #f7f7f7;
+  color: #222;
+}
+footer .copyright ul {
+  float: right;
+}
+
+#footer .footer-top .footer-newsletter form {
+  margin-top: 30px;
+  padding-bottom: -2px;
+  background: #fff;
+  padding-right: 26px;
+  position: relative;
+  border-radius: 4px;
+}
+
+#footer .footer-top .footer-newsletter form input[type='email'] {
+  border: 0px;
+  padding: 6px;
+  width: calc(138% - 110px);
+}
+
+#footer .footer-top .footer-newsletter form input[type='submit'] {
+  position: absolute;
+  background: none;
+  font-size: 16px;
+  padding: 5px;
+  background: rgb(177, 73, 159);
+  color: #fff;
+  margin-top: 10px;
+}
+
+#footer .footer-top .footer-newsletter form input[type='submit']:hover {
+  background: rgb(161, 62, 128);
+}
