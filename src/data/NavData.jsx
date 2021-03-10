@@ -1,9 +1,6 @@
 export const navData = [
   { title: 'Welcome', link: '/' },
-  {
-    title: 'News',
-    link: '/news',
-  },
+
   {
     title: 'About',
     link: '/about',
@@ -21,7 +18,11 @@ export const navData = [
     link: '/blog',
   },
   {
-    title: 'Contact Us ',
+    title: 'Contact ',
     link: '/contact',
+  },
+  {
+    title: 'Sign In ',
+    link: '/register',
   },
 ];
