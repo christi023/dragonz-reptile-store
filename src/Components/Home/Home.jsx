@@ -4,6 +4,7 @@ import BackImg from '../../assets/bg.jpg';
 // Components
 import Carrousel from '../Carrousel/Carrousel';
 import Welcome from '../Welcome/Welcome';
+import Footer from '../Footer/Footer';
 // Pages
 import About from '../../Pages/About/About';
 import Packages from '../../Pages/Packages/Packages';
@@ -27,6 +28,7 @@ const Home = () => {
       <About />
       <Packages />
       <Collection />
+      <Footer />
     </>
   );
 };
