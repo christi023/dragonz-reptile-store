@@ -3,17 +3,17 @@
 footer {
   color: #fff !important;
   position: relative !important;
-  background-color: #00892c !important;
+  background-color: #19201b !important;
 }
 footer p {
   margin-bottom: 20px;
   display: block;
 }
 footer a {
-  color: #1b5b2e;
+  color: #0ae94d;
 }
 footer a:hover {
-  color: #333;
+  color: rgb(74, 231, 42);
   text-decoration: underline;
 }
 footer .grass {
@@ -31,7 +31,7 @@ footer .chameleon img {
 }
 
 footer .top-footer {
-  color: #333;
+  color: rgb(10, 9, 9);
   background: #fff !important;
 }
 footer .top-footer p {
@@ -84,6 +84,7 @@ footer .wrap-footer-bg {
 footer .col-footer {
   margin-bottom: 50px;
 }
+
 footer .col-footer:after,
 .col-footer:before {
   clear: both;
@@ -107,39 +108,56 @@ footer .col-footer.footer-2 img {
 }
 
 footer .copyright {
-  padding: 25px 0;
-  background-color: #f7f7f7;
-  color: #222;
+  border-top: 1px solid #3db843;
+  text-align: center;
+  padding-top: 30px;
 }
 footer .copyright ul {
   float: right;
 }
 
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  padding-bottom: -2px;
-  background: #fff;
+footer .footer-newsletter {
+  margin-top: 6em;
+}
+
+footer .footer-newsletter form {
+  margin-top: 20px;
+  padding-bottom: -10px;
+
   padding-right: 26px;
   position: relative;
   border-radius: 4px;
 }
 
-#footer .footer-top .footer-newsletter form input[type='email'] {
-  border: 0px;
-  padding: 6px;
-  width: calc(138% - 110px);
+.footer-links {
+  margin-top: 7em;
 }
 
-#footer .footer-top .footer-newsletter form input[type='submit'] {
-  position: absolute;
-  background: none;
-  font-size: 16px;
-  padding: 5px;
-  background: rgb(177, 73, 159);
-  color: #fff;
-  margin-top: 10px;
+.footer-links li {
+  list-style: none;
 }
 
-#footer .footer-top .footer-newsletter form input[type='submit']:hover {
-  background: rgb(161, 62, 128);
+/******************** MEDIA QUERIES *******************/
+@media only screen and (max-width: 768px) {
+  footer .grass {
+    position: absolute;
+    top: -160px;
+    left: 0;
+  }
+  footer .grass img {
+    max-width: 250px;
+  }
+  footer .chameleon {
+    position: absolute;
+    top: -95px;
+    right: 0;
+  }
+  footer .chameleon img {
+    max-width: 160px;
+  }
+}
+@media (max-width: 575px) {
+  footer .top-footer {
+    margin: -20px 0 30px 0;
+  }
 }
