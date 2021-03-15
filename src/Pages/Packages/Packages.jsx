@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import PackageCard from '../Packages/PackagesCard';
-import { objOne, objTwo, objThree, objFour } from '../../data/PackageData';
+import { objOne, objTwo, objThree, objFour, objFive, objSix } from '../../data/PackageData';
 // styles
 import './Packages.css';
 
@@ -38,11 +38,11 @@ const Packages = () => {
             </Col>
 
             <Col md={4}>
-              <PackageCard {...objFour} />
+              <PackageCard {...objFive} />
             </Col>
 
             <Col md={4}>
-              <PackageCard {...objFour} />
+              <PackageCard {...objSix} />
             </Col>
           </Row>
         </div>
