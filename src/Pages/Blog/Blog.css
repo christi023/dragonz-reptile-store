@@ -1,0 +1,132 @@
+#main-content {
+  margin: 0 10px 30px;
+}
+
+.single-post .wrap-post {
+  background: #f7f7f7;
+  padding: 30px;
+  position: relative;
+}
+.single-post .wrap-post {
+  margin-bottom: 50px;
+}
+article {
+  background: #ffffff;
+  color: #3f3f3f;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+article:after,
+article:before {
+  clear: both;
+  content: '\0020';
+  display: block;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+article .post-thumbnail-wrap {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*
+article h3.entry-title {
+  font-size: 20px;
+  margin: 10px 0 5px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #222;
+}
+*/
+article .l-tags {
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Crimson Text', serif;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+}
+article .l-tags a {
+  color: #333;
+}
+article .l-tags a:hover {
+  color: #628d7c;
+}
+
+article .entry-header {
+  text-align: center;
+}
+article.single-post .entry-header {
+  padding: 40px 0;
+}
+article.single-post .entry-header h2.entry-title {
+  font-family: 'Cabin', Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #111;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
+}
+article.single-post .entry-header h2.entry-title a {
+  color: #111;
+  margin: 0;
+}
+article .entry-title-blog a:hover {
+  color: #628d7c;
+}
+article .entry-header .time {
+  font-family: 'Merriweather', Georgia, serif;
+  color: #888;
+  font-size: 17px;
+  padding-bottom: 10px;
+  display: block;
+}
+article .entry-header .cat-links {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  display: block;
+}
+
+article .entry-content {
+  padding: 40px 100px;
+  text-align: left;
+}
+@media only screen and (max-width: 767px) {
+  article .entry-content {
+    padding: 30px 50px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  article .entry-content {
+    padding: 30px;
+  }
+}
+article .entry-content p {
+  font-size: 16px;
+  color: #686868;
+}
+article .entry-content blockquote {
+  border-left: 3px solid #1c7791;
+  font-size: 18px;
+  margin: 0 50px;
+  font-style: italic;
+  color: #666;
+  padding-left: 20px;
+}
+article .entry-content ol {
+  float: left;
+  text-align: justify;
+  margin: 10px 50px;
+  font-size: 16px;
+  list-style-type: circle;
+}
