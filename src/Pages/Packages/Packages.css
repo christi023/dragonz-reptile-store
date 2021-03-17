@@ -61,11 +61,18 @@
 .box-entry img {
   border: none;
   width: 100%;
+  transition: all ease-in-out 0.4s;
+}
+
+.box-entry img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .box-entry .entry-des {
   padding: 0 20px 20px;
 }
+
 .box-entry .entry-des h3 {
   margin: 20px 0 0;
   font-size: 29px;

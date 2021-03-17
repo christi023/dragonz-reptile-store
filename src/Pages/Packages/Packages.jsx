@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import PackageCard from '../Packages/PackagesCard';
 import { objOne, objTwo, objThree, objFour, objFive, objSix } from '../../data/PackageData';
+
 // styles
 import './Packages.css';
 
