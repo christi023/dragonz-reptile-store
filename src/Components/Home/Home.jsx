@@ -9,6 +9,7 @@ import Footer from '../Footer/Footer';
 import About from '../../Pages/About/About';
 import Packages from '../../Pages/Packages/Packages';
 import Collection from '../../Pages/Collection/Collection';
+import Contact from '../../Pages/Contact/Contact';
 
 // style
 import './Home.css';
@@ -28,6 +29,8 @@ const Home = () => {
       <About />
       <Packages />
       <Collection />
+      <Contact />
+      <br />
       <Footer />
     </>
   );
