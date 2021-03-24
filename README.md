@@ -8,4 +8,4 @@
 
 ## Font Awesome
 
-## Viewable link for website : https://dragonz-reptiles.netlify.app
+## Viewable link for this website : https://dragonz-reptiles.netlify.app
